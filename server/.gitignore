@@ -1,0 +1,25 @@
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+.env/
+pip-log.txt
+
+# Ignore local settings
+local_settings.py
+
+# Ignore development and production settings
+*.development
+*.production
+
+# Ignore secrets file
+secrets.json
